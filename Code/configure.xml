@@ -1,0 +1,80 @@
+<NeuralNet>
+	<!-- Specify either 'training' or 'testing' -->
+	<Mode>training</Mode>
+
+	<!-- Specify either 'New' or 'Old' -->
+	<NewOrOld>New</NewOrOld>
+
+	<!-- File containing the list of output classes -->
+	<CodecPath>lookup.txt</CodecPath>
+
+	<!-- Network Variables -->
+	<Directionality>bidirectional</Directionality>
+	<NoOfInputFeatures>15</NoOfInputFeatures>
+	<!-- Specify multiple hidden layers by seperating each with a ',' eg:3 hidden layers 50 cells each specify '50,50,50' -->
+	<NoOfHiddenCells>50,50,50</NoOfHiddenCells>
+	<LearningRate>1e-4</LearningRate>
+	<Momentum>0.9</Momentum>
+
+	<!-- Path to the saved natwork, used when in testing mode or on loading network for retraining -->
+	<NetworkPath>network.pkl</NetworkPath>
+
+	<!-- Minimum number of epochs after which validation starts -->
+	<MinimumEpochs>1</MinimumEpochs>
+
+	<!-- Maximum number of epochs after which training stops -->
+	<MaximumEpochs>10</MaximumEpochs>
+	
+	<!-- Specify 'True' to allow validation or else 'False' -->
+	<Validation>False</Validation>
+
+	<!-- Threshold validation error. If label error rate <= Threshold error rate, stop training -->
+	<ThresholdErrorRate>30.0</ThresholdErrorRate>
+
+	<!-- List of training files. Can train multiple files together. Seperate multiple files using a ',' -->
+	<TrainingFiles>train80.txt</TrainingFiles>
+
+	<!-- List of validation files. Can validate on multiple files together. Seperate multiple files using a ',' -->
+	<ValidationFiles>test.txt</ValidationFiles>
+
+	<!-- Specify 'True' for verbose output, else 'False' -->
+	<!-- If set to 'True', output files will also display ground truth and predicted output-->
+	<Verbose>False</Verbose>
+
+	<!-- Specify 'True' if you want an output file, else 'False' -->
+	<TrainingOutput>True</TrainingOutput>
+	<!-- Path for output file -->
+	<TrainingOutputPath>TrainingOutput_multiple_m.txt</TrainingOutputPath>
+
+	<!-- Specify 'True' if you want an output error file, else 'False' -->
+	<TrainingErrorOutput>True</TrainingErrorOutput>
+	<!-- Path for output error file -->
+	<TrainingErrorOutputPath>TrainingErrorOutput_multiple_m.txt</TrainingErrorOutputPath>
+
+	<!-- Specify 'True' if you want a validation output file, else 'False' -->
+	<ValidationOutput>False</ValidationOutput>
+	<!-- Path for validation output file -->
+	<ValidationOutputPath>ValidationOutput___.txt</ValidationOutputPath>
+
+	<!-- Specify 'True' if you want a validation error output file, else 'False' -->
+	<ValidationErrorOutput>False</ValidationErrorOutput>
+	<!-- Path for validation error output file -->
+	<ValidationErrorOutputPath>ValidationErrorOutput.txt</ValidationErrorOutputPath>
+
+	<!-- Path for saving  the trained network with Least error-->
+	<SaveNetworkPath>network_multiple_m.pkl</SaveNetworkPath>
+	<SaveNetworkDataPath>network_multiple_m.txt</SaveNetworkDataPath>
+
+	<SaveLastNetwork>False</SaveLastNetwork>
+	<!-- Path for saving  the trained network after last epochr-->
+	<SaveLastNetworkPath>network_last_.pkl</SaveLastNetworkPath>
+	<SaveLastNetworkDataPath>network_last_.txt</SaveLastNetworkDataPath>
+
+	<!-- List of testing files. Can test on multiple files together. Seperate multiple files using a ',' -->
+	<TestingFiles>test.txt</TestingFiles>
+	<!-- Path for testing output file -->
+	<TestingOutputPath>TestingOutput_.txt</TestingOutputPath>
+	<!-- Path for testing error output file -->
+	<TestingErrorOutputPath>TestingErrorOutput_.txt</TestingErrorOutputPath>
+
+</NeuralNet>

@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Input Feature size vs Space occupied by network</title>
+</head>
+<body>
+    <h1>Input Feature size vs Space occupied by network</h1>
+    <p>The space required by the network is the same as the space required to store the weight of each edge</p>
+    <p>Since total number of weights is W = 4IH + 4H<sup>2</sup> + 3H + HK we expect a linear dependancy between Number of input features and Space</p>
+    <img src="Size_Time/No of input features vs Size.png" />
+    <p>As the image shows, the relationship is linear with a small positive slope</p>
+    <p>In the range of 10 to 3000, the size varies from 29 to 270 Mb</p>
+    <p>For this experiment we use a network with 100 Hidden cells and 50 Output blocks</p>
+    <p><a href="Size_Time/Inplayer_size_exp.txt">Data</a></p>
+    <p><a href="Size_Time/training_Inplayer_size_exp.py">Code</a></p>
+</body>
+</html>

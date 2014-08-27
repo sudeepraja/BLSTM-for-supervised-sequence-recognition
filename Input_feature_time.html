@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Input Feature size vs Time for training network</title>
+</head>
+<body>
+    <h1>Input Feature size vs Time for training network</h1>
+    <p>The time complexity of training one pair of input and output sequences is of the order of the number of Weights, since we have to evaluate the weighted sum in forward pass and update all weights after backward pass</p>
+    <p>Since total number of weights is W = 4IH + 4H<sup>2</sup> + 3H + HK we expect a linear dependancy between Number of input features and Time </p>
+    <p>For this experiment we present the same randomly generated input sequence and output sequence of 10 timesteps 300 times</p>
+    <img src="Size_Time/No of input features vs Time.png" />
+    <p>As the image shows, the relationship is linear with a small positive slope</p>
+    <p>In the range of 10 to 3000, the size varies from 2 to 24 seconds</p>
+    <p>For this experiment we use a network with 100 Hidden cells and 50 Output blocks</p>
+    <p><a href="Size_Time/Inplayer_time_exp.txt">Data</a></p>
+    <p><a href="Size_Time/training_Inplayer_time_exp.py">Code</a></p>
+</body>
+</html>

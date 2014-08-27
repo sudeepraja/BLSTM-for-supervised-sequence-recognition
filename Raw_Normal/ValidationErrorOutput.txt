@@ -1,0 +1,480 @@
+Epoch: 1
+Total words: 4149
+Total word errors: 4108
+Word error rate: 99.0118100747
+Total labels: 27237
+Total label errors: 20387
+Label error rate: 74.8503873407
+
+Epoch: 2
+Total words: 4149
+Total word errors: 3729
+Word error rate: 89.8770788142
+Total labels: 27237
+Total label errors: 15619
+Label error rate: 57.3447883394
+
+Epoch: 3
+Total words: 4149
+Total word errors: 3431
+Word error rate: 82.6946252109
+Total labels: 27237
+Total label errors: 12054
+Label error rate: 44.2559753277
+
+Epoch: 4
+Total words: 4149
+Total word errors: 2919
+Word error rate: 70.3543022415
+Total labels: 27237
+Total label errors: 9120
+Label error rate: 33.4838638617
+
+Epoch: 5
+Total words: 4149
+Total word errors: 2548
+Word error rate: 61.4123885274
+Total labels: 27237
+Total label errors: 7167
+Label error rate: 26.3134706465
+
+Epoch: 6
+Total words: 4149
+Total word errors: 2284
+Word error rate: 55.0494094963
+Total labels: 27237
+Total label errors: 5936
+Label error rate: 21.7938833205
+
+Epoch: 7
+Total words: 4149
+Total word errors: 2071
+Word error rate: 49.9156423235
+Total labels: 27237
+Total label errors: 5083
+Label error rate: 18.6621140361
+
+Epoch: 8
+Total words: 4149
+Total word errors: 1996
+Word error rate: 48.107977826
+Total labels: 27237
+Total label errors: 4678
+Label error rate: 17.1751661343
+
+Epoch: 9
+Total words: 4149
+Total word errors: 1846
+Word error rate: 44.492648831
+Total labels: 27237
+Total label errors: 4163
+Label error rate: 15.2843558395
+
+Epoch: 10
+Total words: 4149
+Total word errors: 1745
+Word error rate: 42.0583273078
+Total labels: 27237
+Total label errors: 3761
+Label error rate: 13.8084223666
+
+Epoch: 11
+Total words: 4149
+Total word errors: 1674
+Word error rate: 40.3470715835
+Total labels: 27237
+Total label errors: 3557
+Label error rate: 13.0594412013
+
+Epoch: 12
+Total words: 4149
+Total word errors: 1588
+Word error rate: 38.2742829597
+Total labels: 27237
+Total label errors: 3294
+Label error rate: 12.0938429342
+
+Epoch: 13
+Total words: 4149
+Total word errors: 1539
+Word error rate: 37.0932754881
+Total labels: 27237
+Total label errors: 3112
+Label error rate: 11.4256342475
+
+Epoch: 14
+Total words: 4149
+Total word errors: 1465
+Word error rate: 35.3097131839
+Total labels: 27237
+Total label errors: 3008
+Label error rate: 11.0438007123
+
+Epoch: 15
+Total words: 4149
+Total word errors: 1473
+Word error rate: 35.5025307303
+Total labels: 27237
+Total label errors: 2935
+Label error rate: 10.7757829423
+
+Epoch: 16
+Total words: 4149
+Total word errors: 1378
+Word error rate: 33.2128223668
+Total labels: 27237
+Total label errors: 2763
+Label error rate: 10.1442890186
+
+Epoch: 17
+Total words: 4149
+Total word errors: 1337
+Word error rate: 32.2246324416
+Total labels: 27237
+Total label errors: 2656
+Label error rate: 9.75144105445
+
+Epoch: 18
+Total words: 4149
+Total word errors: 1299
+Word error rate: 31.3087490962
+Total labels: 27237
+Total label errors: 2583
+Label error rate: 9.4834232845
+
+Epoch: 19
+Total words: 4149
+Total word errors: 1297
+Word error rate: 31.2605447096
+Total labels: 27237
+Total label errors: 2523
+Label error rate: 9.26313470647
+
+Epoch: 20
+Total words: 4149
+Total word errors: 1266
+Word error rate: 30.5133767173
+Total labels: 27237
+Total label errors: 2472
+Label error rate: 9.07588941513
+
+Epoch: 21
+Total words: 4149
+Total word errors: 1245
+Word error rate: 30.007230658
+Total labels: 27237
+Total label errors: 2448
+Label error rate: 8.98777398392
+
+Epoch: 22
+Total words: 4149
+Total word errors: 1220
+Word error rate: 29.4046758255
+Total labels: 27237
+Total label errors: 2386
+Label error rate: 8.76014245328
+
+Epoch: 23
+Total words: 4149
+Total word errors: 1204
+Word error rate: 29.0190407327
+Total labels: 27237
+Total label errors: 2361
+Label error rate: 8.66835554576
+
+Epoch: 24
+Total words: 4149
+Total word errors: 1193
+Word error rate: 28.7539166064
+Total labels: 27237
+Total label errors: 2321
+Label error rate: 8.52149649374
+
+Epoch: 25
+Total words: 4149
+Total word errors: 1180
+Word error rate: 28.4405880935
+Total labels: 27237
+Total label errors: 2282
+Label error rate: 8.37830891802
+
+Epoch: 26
+Total words: 4149
+Total word errors: 1156
+Word error rate: 27.8621354543
+Total labels: 27237
+Total label errors: 2224
+Label error rate: 8.16536329258
+
+Epoch: 27
+Total words: 4149
+Total word errors: 1208
+Word error rate: 29.1154495059
+Total labels: 27237
+Total label errors: 2351
+Label error rate: 8.63164078276
+
+Epoch: 28
+Total words: 4149
+Total word errors: 1162
+Word error rate: 28.0067486141
+Total labels: 27237
+Total label errors: 2224
+Label error rate: 8.16536329258
+
+Epoch: 29
+Total words: 4149
+Total word errors: 1157
+Word error rate: 27.8862376476
+Total labels: 27237
+Total label errors: 2200
+Label error rate: 8.07724786137
+
+Epoch: 30
+Total words: 4149
+Total word errors: 1136
+Word error rate: 27.3800915883
+Total labels: 27237
+Total label errors: 2147
+Label error rate: 7.88265961743
+
+Epoch: 31
+Total words: 4149
+Total word errors: 1110
+Word error rate: 26.7534345625
+Total labels: 27237
+Total label errors: 2133
+Label error rate: 7.83125894922
+
+Epoch: 32
+Total words: 4149
+Total word errors: 1143
+Word error rate: 27.5488069414
+Total labels: 27237
+Total label errors: 2204
+Label error rate: 8.09193376657
+
+Epoch: 33
+Total words: 4149
+Total word errors: 1111
+Word error rate: 26.7775367558
+Total labels: 27237
+Total label errors: 2096
+Label error rate: 7.6954143261
+
+Epoch: 34
+Total words: 4149
+Total word errors: 1123
+Word error rate: 27.0667630754
+Total labels: 27237
+Total label errors: 2117
+Label error rate: 7.77251532841
+
+Epoch: 35
+Total words: 4149
+Total word errors: 1096
+Word error rate: 26.4160038564
+Total labels: 27237
+Total label errors: 2083
+Label error rate: 7.64768513419
+
+Epoch: 36
+Total words: 4149
+Total word errors: 1083
+Word error rate: 26.1026753435
+Total labels: 27237
+Total label errors: 2060
+Label error rate: 7.56324117928
+
+Epoch: 37
+Total words: 4149
+Total word errors: 1082
+Word error rate: 26.0785731502
+Total labels: 27237
+Total label errors: 2049
+Label error rate: 7.52285493997
+
+Epoch: 38
+Total words: 4149
+Total word errors: 1068
+Word error rate: 25.741142444
+Total labels: 27237
+Total label errors: 2021
+Label error rate: 7.42005360355
+
+Epoch: 39
+Total words: 4149
+Total word errors: 1078
+Word error rate: 25.982164377
+Total labels: 27237
+Total label errors: 2049
+Label error rate: 7.52285493997
+
+Epoch: 40
+Total words: 4149
+Total word errors: 1072
+Word error rate: 25.8375512172
+Total labels: 27237
+Total label errors: 2011
+Label error rate: 7.38333884055
+
+Epoch: 41
+Total words: 4149
+Total word errors: 1054
+Word error rate: 25.4037117378
+Total labels: 27237
+Total label errors: 1976
+Label error rate: 7.25483717003
+
+Epoch: 42
+Total words: 4149
+Total word errors: 1040
+Word error rate: 25.0662810316
+Total labels: 27237
+Total label errors: 1957
+Label error rate: 7.18507912031
+
+Epoch: 43
+Total words: 4149
+Total word errors: 1021
+Word error rate: 24.6083393589
+Total labels: 27237
+Total label errors: 1923
+Label error rate: 7.06024892609
+
+Epoch: 44
+Total words: 4149
+Total word errors: 1039
+Word error rate: 25.0421788383
+Total labels: 27237
+Total label errors: 1945
+Label error rate: 7.14102140471
+
+Epoch: 45
+Total words: 4149
+Total word errors: 1039
+Word error rate: 25.0421788383
+Total labels: 27237
+Total label errors: 1961
+Label error rate: 7.19976502552
+
+Epoch: 46
+Total words: 4149
+Total word errors: 1025
+Word error rate: 24.7047481321
+Total labels: 27237
+Total label errors: 1909
+Label error rate: 7.00884825788
+
+Epoch: 47
+Total words: 4149
+Total word errors: 1023
+Word error rate: 24.6565437455
+Total labels: 27237
+Total label errors: 1908
+Label error rate: 7.00517678158
+
+Epoch: 48
+Total words: 4149
+Total word errors: 1033
+Word error rate: 24.8975656785
+Total labels: 27237
+Total label errors: 1925
+Label error rate: 7.06759187869
+
+Epoch: 49
+Total words: 4149
+Total word errors: 1026
+Word error rate: 24.7288503254
+Total labels: 27237
+Total label errors: 1909
+Label error rate: 7.00884825788
+
+Epoch: 50
+Total words: 4149
+Total word errors: 1012
+Word error rate: 24.3914196192
+Total labels: 27237
+Total label errors: 1906
+Label error rate: 6.99783382898
+
+Epoch: 51
+Total words: 4149
+Total word errors: 1037
+Word error rate: 24.9939744517
+Total labels: 27237
+Total label errors: 1894
+Label error rate: 6.95377611338
+
+Epoch: 52
+Total words: 4149
+Total word errors: 1024
+Word error rate: 24.6806459388
+Total labels: 27237
+Total label errors: 1885
+Label error rate: 6.92073282667
+
+Epoch: 53
+Total words: 4149
+Total word errors: 1003
+Word error rate: 24.1744998795
+Total labels: 27237
+Total label errors: 1883
+Label error rate: 6.91338987407
+
+Epoch: 54
+Total words: 4149
+Total word errors: 1122
+Word error rate: 27.0426608821
+Total labels: 27237
+Total label errors: 2179
+Label error rate: 8.00014685905
+
+Epoch: 55
+Total words: 4149
+Total word errors: 1003
+Word error rate: 24.1744998795
+Total labels: 27237
+Total label errors: 1860
+Label error rate: 6.82894591915
+
+Epoch: 56
+Total words: 4149
+Total word errors: 1576
+Word error rate: 37.9850566402
+Total labels: 27237
+Total label errors: 2814
+Label error rate: 10.3315343099
+
+Epoch: 57
+Total words: 4149
+Total word errors: 1055
+Word error rate: 25.4278139311
+Total labels: 27237
+Total label errors: 1950
+Label error rate: 7.15937878621
+
+Epoch: 58
+Total words: 4149
+Total word errors: 997
+Word error rate: 24.0298867197
+Total labels: 27237
+Total label errors: 1836
+Label error rate: 6.74083048794
+
+Epoch: 59
+Total words: 4149
+Total word errors: 974
+Word error rate: 23.4755362738
+Total labels: 27237
+Total label errors: 1844
+Label error rate: 6.77020229834
+
+Epoch: 60
+Total words: 4149
+Total word errors: 991
+Word error rate: 23.8852735599
+Total labels: 27237
+Total label errors: 1851
+Label error rate: 6.79590263245
+

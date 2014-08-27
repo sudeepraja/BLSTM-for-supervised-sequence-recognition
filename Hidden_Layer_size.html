@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Hidden Layer size vs Space occupied by network</title>
+</head>
+<body>
+    <h1>Hidden Layer size vs Space occupied by network</h1>
+    <p>The space required by the network is the same as the space required to store the weight of each edge</p>
+    <p>Since total number of weights is W = 4IH + 4H<sup>2</sup> + 3H + HK we expect a quadratic dependancy between Number of Hidden Cells and Space</p>
+    <img src="Size_Time/No of hidden cells vs Size.png" />
+    <p>For this experiment we use 15 input features and an output layer of 173 classes</p>
+    <p>As the image shows, the relationship is quadratic</p>
+    <p>In the range of 10 to 3000, the size varies from 3Mb to 5.7 Gb. We use 150 hidden cells, which has a size of 50 Mb and after 30 epochs of training becomes 80 Mb</p>
+    <p><a href="Size_Time/Hlayer_size_exp.txt">Data</a></p>
+    <p><a href="Size_Time/training_Hlayer_size_exp.py">Code</a></p>
+</body>
+</html>

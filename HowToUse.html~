@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Using BLSTM to learn any language</title>
+</head>
+<body>
+    <h1>Using BLSTM to learn any language</h1>
+<p>For understanding how lstm works, read Supervised Sequence Labelling with Recurrent Neural Networks by Alex Graves.</p>
+<p>It also contains introduction to basic neural networks. </p>
+<p>It is a must read to understand the implementation of BLSTM in lstm.py</p>
+<p>The list of equations after the chapter on lstm are directly implemented in lstm.py</p>
+<p>See <a href="Code/explanation.pdf">explanation.pdf</a> for undrstanding what each symbol represents</p>
+<p>Here is a free copy: <a href="http://www.cs.toronto.edu/~graves/preprint.pdf">upervised Sequence Labelling with Recurrent Neural Networks</a></p>
+    <p>Follow these steps:</p>
+    <ol>
+        <li>Create a codec for the language you want to recognize. This is simply a file which looks like <a href="Code/lookup.txt">this</a>.It consits of the list of unicode charecters in hexadecimal</li>
+        <li>The training data file looks like <a href="Code/test.txt">this</a>. Run <a href="Code/Max_timesteps.py">this</a>(Max_timesteps.py) python script with the feature file as the argumnet. This gives the length of the largest sequence in the training file.</li>
+        <li>Open <a href="Code/lstm.py">lstm.py</a> and scroll to line 444. Here , the value of maxlen must be greater than the length of the largest sequence. If it is not, change the value, but don't set it too high as the size of network will blow-up.</li>
+        <li>Now open <a href="Code/configure.xml">configure.xml</a> file and set the parameters for training or training with validation or testing using the paramets specified above each field</li>
+        <li>Run <a href="Code/training_testing.py">training_testing.py</a> configure.xml on the terminal</li>
+        <li>This outputs the trained network with a .pkl extension and also files which contain data about the training, validation and testing process</li>
+    </ol>
+    
+</body>
+</html>

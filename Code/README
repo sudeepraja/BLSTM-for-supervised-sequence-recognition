@@ -1,0 +1,15 @@
+For understanding how lstm works, read Supervised Sequence Labelling with Recurrent Neural Networks by Alex Graves.
+It also contains introduction to basic neural networks. 
+It is a must read to understand the implementation of BLSTM in lstm.py
+The list of equations after the chapter on lstm are directly implemented in lstm.py
+See explanation.pdf for undrstanding what each symbol represents
+Here is a free copy: http://www.cs.toronto.edu/~graves/preprint.pdf
+
+Follow these steps to train or test a network on any language:
+
+1.Create a codec for the language you want to recognize. This is simply a file which looks like this.It consits of the list of unicode charecters in hexadecimal
+2.The training data file looks like this. Run this(Max_timesteps.py) python script with the feature file as the argumnet. This gives the length of the largest sequence in the training file.
+3.Open lstm.py and scroll to line 444. Here , the value of maxlen must be greater than the length of the largest sequence. If it is not, change the value, but don't set it too high as the size of network will blow-up.
+4.Now open configure.xml file and set the parameters for training or training with validation or testing using the paramets specified above each field
+5.Run training_testing.py configure.xml on the terminal
+6.This outputs the trained network with a .pkl extension and also files which contain data about the training, validation and testing process

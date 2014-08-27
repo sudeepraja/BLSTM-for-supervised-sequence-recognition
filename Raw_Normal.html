@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Performance of network using Raw Features vs Profile Features</title>
+</head>
+<body>
+    <h1>Performance of network using Raw Features vs Profile Features</h1>
+    <p>On using raw features, which were extracted coloumn wise directly from the binarized image, the network error diminishes much quickly but running time of each epoch is more.</p>
+    <p><a href="Raw_Normal/raw errors.txt">Data</a></p>
+    <img src="Raw_Normal/raw features Label error rate vs Epochs.png" />
+    <img src="Raw_Normal/raw features Word error rate vs Epochs.png" />
+    
+    <p>On using profile features, the network error diminishes slowly and running time of each epoch is less than when we use raw features.</p>
+    <p><a href="Raw_Normal/normal errors.txt">Data</a></p>
+    <img src="Raw_Normal/normal features Label error rate vs Epochs.png" />
+    <img src="Raw_Normal/normal features Word error rate vs Epochs.png" />
+
+    <p>Using Raw features, After 30 epochs Label error rate as less as 4% and word errer rate of 17% were achieved on training data.</p>
+    <img src="Raw_Normal/raw features Label and Word error rate vs Epochs.png" />
+    <p>After 60 epochs Label error rate as less as 1.5% and word errer rate of 7% were achieved on training data and Label error rate of 6% and Word error rate of 23% were achieved on testing data.</p>
+<p>Training <a href="Raw_Normal/TrainingErrorOutput.txt">Output</a></p>
+<img src="Raw_Normal/Training Label and Word error rate vs Epochs.png" />
+<p>Testing <a href="Raw_Normal/ValidationErrorOutput.txt">Output</a></p>
+<img src="Raw_Normal/Testing Label and Word error rate vs Epochs.png" />
+</body>
+</html>

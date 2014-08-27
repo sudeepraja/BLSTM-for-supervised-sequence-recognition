@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>OCROPUS BLSTM</title>
+</head>
+<body>
+    <h1>Study of BLSTM for Sequence Labelling</h1>
+    <p>The implementation of BLSTM in OCRUPUS can be modified and extended so as to use it for recognizing any language.</p>
+    <p>First this report presents a few experiments which show the space and time dependencies of BLSTM neural network and also a study of network performance in case of extracted feature input compared to raw feature input.</p>
+    <p>Then a simple interface for training and testing a BLSTM neural network is presented at the ending.</p>
+
+    <br />
+
+    <h2>Experiments</h2>
+
+    <p><a href="Input_feature_size.html">Input Feature size vs Space occupied by network </a></p>
+    <p><a href="Input_feature_time.html">Input Feature size vs Time for training network </a></p>
+    <p><a href="Hidden_Layer_size.html">Hidden Layer size vs Space occupied by network </a></p>
+    <p><a href="Hidden_Layer_time.html">Hidden Layer size vs Time for training network </a></p>
+    <p><a href="Raw_Normal.html">Performance of network using Raw Features vs Profile Features</a></p>
+
+    <br />
+
+    <h2>Features</h2>
+    <p>using this modified package, we can do the following things:</p>
+    <ul>
+        <li>Train a BLSTM network for a fixed number of epochs</li>
+        <li>Train a BLSTM network until the label error rate is less than a specified threshold error on a validation input</li>
+        <li>Retrain previosly saved network using any of the above two methods</li>
+        <li>Test a saved network on testing data</li>
+        <li>Get detailed reports on input-output and error rates in each epoch</li>
+        <li>Save both network with least error and network after last epoch</li>
+        <li>lstm.py is much more generic and contains Logreg,Softmax,MLP and LSTM neural network implementatons. We can also build networks of any size and shape using Stacked, Parallel and Reverse interfaces provided in lstm.py</li>
+    </ul>
+
+    <h2><a href="HowToUse.html">Using BLSTM to learn any language</a></h2>
+    
+</body>
+</html>

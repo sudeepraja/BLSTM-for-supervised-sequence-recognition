@@ -1,0 +1,240 @@
+Epoch: 1
+Total words: 17694
+Total word errors: 17619
+Word error rate: 99.5761275008
+Total labels: 115779
+Total label errors: 99785
+Label error rate: 86.1857504383
+
+Epoch: 2
+Total words: 17694
+Total word errors: 16771
+Word error rate: 94.7835424438
+Total labels: 115779
+Total label errors: 71115
+Label error rate: 61.4230559946
+
+Epoch: 3
+Total words: 17694
+Total word errors: 14636
+Word error rate: 82.7173053012
+Total labels: 115779
+Total label errors: 49976
+Label error rate: 43.1649953791
+
+Epoch: 4
+Total words: 17694
+Total word errors: 12499
+Word error rate: 70.6397648921
+Total labels: 115779
+Total label errors: 37504
+Label error rate: 32.3927482531
+
+Epoch: 5
+Total words: 17694
+Total word errors: 10918
+Word error rate: 61.7045326099
+Total labels: 115779
+Total label errors: 29467
+Label error rate: 25.4510748927
+
+Epoch: 6
+Total words: 17694
+Total word errors: 9813
+Word error rate: 55.4594777891
+Total labels: 115779
+Total label errors: 24738
+Label error rate: 21.3665690669
+
+Epoch: 7
+Total words: 17694
+Total word errors: 8713
+Word error rate: 49.2426811348
+Total labels: 115779
+Total label errors: 20653
+Label error rate: 17.8382953731
+
+Epoch: 8
+Total words: 17694
+Total word errors: 7855
+Word error rate: 44.3935797445
+Total labels: 115779
+Total label errors: 17375
+Label error rate: 15.0070392731
+
+Epoch: 9
+Total words: 17694
+Total word errors: 7224
+Word error rate: 40.8273991183
+Total labels: 115779
+Total label errors: 15340
+Label error rate: 13.2493802849
+
+Epoch: 10
+Total words: 17694
+Total word errors: 6684
+Word error rate: 37.7755171244
+Total labels: 115779
+Total label errors: 13662
+Label error rate: 11.8000673697
+
+Epoch: 11
+Total words: 17694
+Total word errors: 6258
+Word error rate: 35.3679213293
+Total labels: 115779
+Total label errors: 12409
+Label error rate: 10.7178331131
+
+Epoch: 12
+Total words: 17694
+Total word errors: 5839
+Word error rate: 32.9998869673
+Total labels: 115779
+Total label errors: 11249
+Label error rate: 9.71592430406
+
+Epoch: 13
+Total words: 17694
+Total word errors: 5637
+Word error rate: 31.8582570363
+Total labels: 115779
+Total label errors: 10692
+Label error rate: 9.23483533283
+
+Epoch: 14
+Total words: 17694
+Total word errors: 5253
+Word error rate: 29.6880298406
+Total labels: 115779
+Total label errors: 9716
+Label error rate: 8.39184999007
+
+Epoch: 15
+Total words: 17694
+Total word errors: 4934
+Word error rate: 27.8851588109
+Total labels: 115779
+Total label errors: 8921
+Label error rate: 7.70519697009
+
+Epoch: 16
+Total words: 17694
+Total word errors: 4827
+Word error rate: 27.2804340454
+Total labels: 115779
+Total label errors: 8510
+Label error rate: 7.35021031448
+
+Epoch: 17
+Total words: 17694
+Total word errors: 4544
+Word error rate: 25.6810218153
+Total labels: 115779
+Total label errors: 7937
+Label error rate: 6.8553019114
+
+Epoch: 18
+Total words: 17694
+Total word errors: 4304
+Word error rate: 24.324629818
+Total labels: 115779
+Total label errors: 7333
+Label error rate: 6.33361835912
+
+Epoch: 19
+Total words: 17694
+Total word errors: 4216
+Word error rate: 23.8272860857
+Total labels: 115779
+Total label errors: 7059
+Label error rate: 6.09696058871
+
+Epoch: 20
+Total words: 17694
+Total word errors: 4006
+Word error rate: 22.6404430881
+Total labels: 115779
+Total label errors: 6692
+Label error rate: 5.77997737068
+
+Epoch: 21
+Total words: 17694
+Total word errors: 3916
+Word error rate: 22.1317960891
+Total labels: 115779
+Total label errors: 6479
+Label error rate: 5.5960061842
+
+Epoch: 22
+Total words: 17694
+Total word errors: 3790
+Word error rate: 21.4196902905
+Total labels: 115779
+Total label errors: 6177
+Label error rate: 5.33516440805
+
+Epoch: 23
+Total words: 17694
+Total word errors: 3611
+Word error rate: 20.4080479259
+Total labels: 115779
+Total label errors: 5843
+Label error rate: 5.04668376821
+
+Epoch: 24
+Total words: 17694
+Total word errors: 3499
+Word error rate: 19.7750649938
+Total labels: 115779
+Total label errors: 5496
+Label error rate: 4.74697484
+
+Epoch: 25
+Total words: 17694
+Total word errors: 3604
+Word error rate: 20.3684864926
+Total labels: 115779
+Total label errors: 5800
+Label error rate: 5.00954404512
+
+Epoch: 26
+Total words: 17694
+Total word errors: 3453
+Word error rate: 19.515089861
+Total labels: 115779
+Total label errors: 5465
+Label error rate: 4.72019969079
+
+Epoch: 27
+Total words: 17694
+Total word errors: 3224
+Word error rate: 18.2208658302
+Total labels: 115779
+Total label errors: 4985
+Label error rate: 4.30561673533
+
+Epoch: 28
+Total words: 17694
+Total word errors: 3220
+Word error rate: 18.1982592969
+Total labels: 115779
+Total label errors: 4934
+Label error rate: 4.26156729631
+
+Epoch: 29
+Total words: 17694
+Total word errors: 4514
+Word error rate: 25.5114728156
+Total labels: 115779
+Total label errors: 8284
+Label error rate: 7.15501083962
+
+Epoch: 30
+Total words: 17694
+Total word errors: 4494
+Word error rate: 25.3984401492
+Total labels: 115779
+Total label errors: 7608
+Label error rate: 6.57113984401
+
